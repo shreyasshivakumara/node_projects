@@ -1,6 +1,6 @@
 
 
-console.log(__dirname,__filename)
+// console.log(__dirname,__filename)
 
 class Person{
     constructor(name,age,x,y){

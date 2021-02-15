@@ -10,7 +10,6 @@ const path = require('path');
 //});
 
 
-
 //console.log(path.join(__dirname, './test','./abc'));
 
 // Writing text on the file
@@ -28,3 +27,5 @@ fs.readFile(path.join(__dirname,'./test','hello.txt'),'utf-8',(err, data) => {
         console.log(data);
     });
 
+
+    

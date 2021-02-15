@@ -20,7 +20,7 @@ addEmitter.on('event', ()=>
         console.log(x++);
 });
 
-for (let i = 0; i < 5; i++){
+for (let i = 0; i < 5; i++){ 
     addEmitter.emit('event');
   }
 
