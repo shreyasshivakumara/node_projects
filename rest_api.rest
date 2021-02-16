@@ -1,0 +1,15 @@
+GET http://localhost:3000/POSTS 
+
+###
+
+
+
+
+POST http://localhost:3000/POSTS 
+Content-Type: application/json
+
+{
+    "name": "naruto ",
+    "subscribedToChannel": "web Dev" 
+}
+
